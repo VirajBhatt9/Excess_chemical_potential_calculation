@@ -1,4 +1,6 @@
-# 1. Introduction to the system
+# Excess chemical potential calculation using multiple stage Free Energy Perturbation (FEP) technique for a Lennard-Jones fluid in NVT ensemble using Monte Carlo simulation
+
+## 1. Introduction to the system
 
 In our system, we have 257 particles in which 256 particles are interacting with each other by the Lennard-Jones potential given by,
 
@@ -12,7 +14,7 @@ $u\left(r\right)=\ 4\lambda\epsilon\left(\frac{1}{\left[\alpha\left(1-\lambda^2\
 
 Our aim is to calculate the free energy change in multiple stages by the “Free Energy Perturbation (FEP)” technique. This is done by varying $\lambda$ between [0,1] and vary number of stages for free energy calculations till the calculated quantity, $μ_{ex}$ becomes constant and hence converges. The formula used for calculation purposes is the Zwanzig’s forward formula.
 
-# 2. FEP Mathematics:
+## 2. FEP Mathematics:
 
 Consider a molecular system with $n$ number of molcules in state let's say $(1)$ with the potential energy of the system given as $U_{(1)}$. The partition function in this case, is given by,
 
