@@ -10,3 +10,5 @@ The cutoff radius for this stage is set as $r_{cut}=2.5σ$. We also set the init
 •	If the randomly selected particle $i$ is not the $m^{th}$ and the last particle, $N$, then we calculate the distance $r$ between molecules $i^{th}$ and $m^{th}$ considering periodic boundary conditions. If the distance $r$, is such that $r < r_{cut}$, then we calculate the Lennard-Jones potential contribution using the 12-6 Lennard-Jones potential. If $r > r_{cut}$, then we calculate the modified Lennard-Jones potential contribution with a scaling factor $λ$.
 
 •	If the randomly selected particle $(m)$ is the last particle in the system, then we loop over all particles $(i)$ except the last particle and calculate the distance $(r)$ between particles $i^{th}$ and $m^{th}$ considering periodic boundary conditions. If the distance $r$, is such that $r < r_{cut}$, then we calculate the modified Lennard-Jones potential contribution with a scaling factor $λ$.
+
+The output generated from this file is the total interaction energy $(SR)$ of the randomly selected particle $(m)$ with all other particles in the system.
