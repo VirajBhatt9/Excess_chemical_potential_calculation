@@ -1,4 +1,4 @@
-The program is written in MATLAB. `main.m` is the main program file. `configuration.m`, `interaction_energy.m` and `total_energy.m` are the necessary subordinate file. 
+The program files are written in MATLAB programming language. `main.m` is the main program file. `configuration.m`, `interaction_energy.m` and `total_energy.m` are the necessary subordinate file. 
 
 ### 1. Details for `main.m`:
 #### 1.1. Parameter and variable declaration: 
